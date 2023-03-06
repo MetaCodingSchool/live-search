@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    
+}
+ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: .25rem;
+    margin-top: 1rem;
+    list-style: none;
+    text-align: center;
+    
+  }
+  input {
+    margin-top: 50px;
+    font-size: 1rem;
+  }
+
+  li{
+    border: 1px solid black;
+    background-color: white;
+    padding: .5rem;
+  }
+  a{
+    font-size: .8rem;
+    color: rgb(7, 7, 7);
+  }
